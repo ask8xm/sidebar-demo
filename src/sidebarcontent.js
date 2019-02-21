@@ -50,7 +50,26 @@ const SidebarContent = props => {
           Responsive Example
         </a>
         <div style={styles.divider} />
-        {links}
+        <div style={styles.divider} />
+
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/balloob/react-sidebar"
+          style={styles.sidebarLink}
+        >
+          Github link: React Sidebar
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/ask8xm/sidebar-demo"
+          style={styles.sidebarLink}
+        >
+          this project github link
+        </a>
+
+        <div>{links}</div>
       </div>
     </MaterialTitlePanel>
   );
